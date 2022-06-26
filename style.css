@@ -298,10 +298,6 @@ hr{
         width: 75%;
         padding-left: 10px;
     }
-    .logo-link {
-        width: 60px;
-        height: 60px;
-    }
    .side-container-2 {
        display: grid;
        justify-content: center;

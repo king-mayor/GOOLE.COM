@@ -383,4 +383,7 @@ hr{
            display: grid;
            justify-content: center;
        }
+       .search-bar input {
+           width: 60%;
+       }
 }

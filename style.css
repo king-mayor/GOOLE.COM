@@ -294,6 +294,10 @@ hr{
     justify-content: center;
     margin: 0;
    }
+    .search-bar input {
+        width: 75%;
+        padding-left: 10px;
+    }
    .side-container-2 {
        display: grid;
        justify-content: center;

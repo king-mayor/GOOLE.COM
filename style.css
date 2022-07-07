@@ -289,62 +289,57 @@ hr{
         display: grid;
         grid-template-columns: 1fr;
     }
+    .logo img {
+        width: 200px;
+        height: 50px;
+    }
+    .mojeek img {
+        width: 100px;
+        height: 50px;
+    }
    .side-container-1 {
     display: grid;
     justify-content: center;
     margin: 0;
    }
-    .search-bar input {
-        width: 75%;
-        padding-left: 10px;
-    }
+   .image-section img {
+       width: 300px;
+   }
+   .image-section-1 img {
+       width: 300px;
+   }
    .side-container-2 {
        display: grid;
        justify-content: center;
    }
-   body, html {
-       height: 100%;
-       width: 100%;
-       padding: 0;
-       margin: 0;
-       overflow-x: hidden;
-   }
    .button-links-1 button{
        padding: 5px 5px;
+       font-size: 0.7em;
    }
-   .button-links-1 {
-       display: grid;
-       justify-content: center;
+   .button-links-1, .button-links-2, .button-links-3{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-left: 0;
    }
    .button-links-2 button{
     padding: 5px 5px;
+    font-size: 0.7em;
 }
-.button-links-2 {
-    display: grid;
-    justify-content: center;
-    margin-right: 70px;
-}
+
 .button-links-3 button{
     padding: 5px 5px;
-}
-.button-links-3 {
-    display: grid;
-    justify-content: center;
-    margin-right: 70px;
+    font-size: 0.7em;
 }
 }
-/* Tablets */
-@media all and (max-width: 978px){
+@media all and (max-width: 798px){
     .container{
         display: grid;
         grid-template-columns: 1fr;
     }
-    body, html {
-        padding: 0;
-        margin: 0;
-        height: 100%;
-        width: 100%;
-        overflow-x: hidden;
+    .logo img {
+        width: 200px;
+        height: 50px;
     }
     .side-container-1 {
         display: grid;
@@ -359,35 +354,101 @@ hr{
        .button-links-1, .button-links-2, .button-links-3 {
         display: grid;
         justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 0;
        }
        .button-links-1 button{
         padding: 5px 5px;
+        font-size: 0.7em;
     }
-    .button-links-1 {
-        display: grid;
+    .button-links-1, .button-links-2, .button-links-3 {
+        display: flex;
         justify-content: center;
+        flex-wrap: wrap;
     }
     .button-links-2 button{
      padding: 5px 5px;
+     font-size: 0.7em;
  }
- .button-links-2 {
-     display: grid;
-     justify-content: center;
-     margin-right: 70px;
- }
- .button-links-3 button{
+    .button-links-3 button{
      padding: 5px 5px;
+     font-size: 0.7em;
  }
- .button-links-3 {
-     display: grid;
+ .image-section img {
+    width: 300px;
+}
+.image-section-1 img {
+    width: 300px;
+    text-align: center;
+}
+.image-section, .image-section-1 {
+    display: grid;
+    justify-content: center;
+}
+    .search-bar input {
+     width: 60%;
+ }
+}
+@media all and (max-width: 1250px) {
+    .container{
+        display: grid;
+        grid-template-columns: 2fr;
+    }
+    .logo img {
+        width: 200px;
+        height: 50px;
+    }
+    .side-container-1 {
+        display: grid;
+        justify-content: center;
+        margin: 0;
+       }
+       .side-container-2 {
+        display: grid;
+        justify-content: center;
+        margin: 0;
+       }
+       .button-links-1, .button-links-2, .button-links-3 {
+        display: grid;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 0;
+       }
+       .button-links-1 button{
+        padding: 5px 5px;
+        font-size: 0.7em;
+    }
+    .button-links-1, .button-links-2, .button-links-3 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .button-links-2 button{
+     padding: 5px 5px;
+     font-size: 0.7em;
+ }
+    .button-links-3 button{
+     padding: 5px 5px;
+     font-size: 0.7em;
+ }
+ .image-section img {
+    width: 400px;
+}
+.image-section-1 img {
+    width: 400px;
+    text-align: center;
+}
+.image-section, .image-section-1 {
+    display: grid;
+    justify-content: center;
+}
+    .search-bar input {
+     width: 50%;
+ }
+ .side-container-1, .side-container-2 {
+     display: flex;
      justify-content: center;
-     margin-right: 70px;
+     gap: 15px;
+     flex-wrap: wrap;
  }
-       .image-section, .image-section-1 {
-           display: grid;
-           justify-content: center;
-       }
-       .search-bar input {
-           width: 60%;
-       }
 }

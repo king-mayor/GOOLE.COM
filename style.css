@@ -285,186 +285,254 @@ hr{
     margin-bottom: 15px;
 }
 /* Mobile devices */
-@media all and (max-width: 600px){
-    .search-bar input {
-        padding-top: 5px;
-        padding-bottom: 5px;
-        font-size: 0.75em;
-        margin-right: 15px;
-        padding-left: 5px;
+@media all and (max-width: 670px){
+    .navbar ul li a {
+        display: none;
     }
-    .search-btn button {
-        padding: 3px 6px;
-        border: 1px solid darkgray;
-        outline-color: darkgray;
-        border-radius: 10px;
-        background-color: rgb(21, 168, 13);
-        color: white;
+    .search-bar, .nav1, .nav2, .login-btn, .signup-btn, .web-btn, .chart-font {
+        display: none;
     }
-    .container{
-        display: grid;
+    .bg-container {
+        display: none;
+    }
+    .courses p {
+        line-height: 25px;
+    }
+    .courses ul{
+        flex-direction: column;
+        line-height: 30px;
+    }
+    .py-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+    .students-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+    .design-containers {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+    .design-containers2 {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+    .ft-container {
         grid-template-columns: 1fr;
+        justify-items: center;
     }
-    .logo img {
-        width: 200px;
-        height: 50px;
+    .design1 {
+        margin-bottom: 30px;
     }
-    .mojeek img {
-        width: 100px;
-        height: 50px;
+    .instructor1-bio {
+        flex-direction: column;
+        text-align: center;
     }
-   .side-container-1 {
-    display: grid;
-    justify-content: center;
-    margin: 0;
-   }
-   .image-section img {
-       width: 300px;
-   }
-   .image-section-1 img {
-       width: 300px;
-   }
-   .side-container-2 {
-       display: grid;
-       justify-content: center;
-   }
-   .button-links-1 button{
-       padding: 5px 5px;
-       font-size: 0.7em;
-   }
-   .button-links-1, .button-links-2, .button-links-3{
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      margin-left: 0;
-   }
-   .button-links-2 button{
-    padding: 5px 5px;
-    font-size: 0.7em;
+    .design1 h2 {
+        text-align: center;
+    }
+    .students-header h2 {
+        text-align: center;
+    }
+    .ft-header1 h1 {
+        text-align: center;
+    }
+    .categories-header h2 {
+        text-align: center;
+    }
+    .instructor2-bio {
+        flex-direction: column-reverse;
+        position: relative;
+        text-align: center;
+    }
+    .instructor2, .bio2 {
+        position: absolute;
+    }
+    .bio2{
+        margin-top: 250px;
+        text-align: center;
+    }
+    .bio2 img {
+        position: absolute;
+        top: -17px;
+        left: 30%;
+    }
+    .bio2 p {
+        margin-left: 25px;
+        position: relative;
+        left: 3%;
+    }
+    .bio3 img {
+        margin-bottom: 290px;
+    }
+    .transform {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-links {
+        flex-direction: column;
+        text-align: center;
+    }
+    .post-footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer6 p {
+        margin-right: 0px;
+    }
 }
-
-.button-links-3 button{
-    padding: 5px 5px;
-    font-size: 0.7em;
-}
-}
-@media all and (max-width: 798px){
-    .container{
-        display: grid;
-        grid-template-columns: 1fr;
+@media all and (max-width: 790px) {
+    .navbar ul li a {
+        display: none;
     }
-    .logo img {
-        width: 200px;
-        height: 50px;
+    .search-bar, .nav1, .nav2, .login-btn, .signup-btn, .web-btn, .chart-font {
+        display: none;
     }
-    .side-container-1 {
-        display: grid;
-        justify-content: center;
-        margin: 0;
-       }
-       .side-container-2 {
-        display: grid;
-        justify-content: center;
-        margin: 0;
-       }
-       .button-links-1, .button-links-2, .button-links-3 {
-        display: grid;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin-left: 0;
-       }
-       .button-links-1 button{
-        padding: 5px 5px;
-        font-size: 0.7em;
+    .bg-container {
+        display: none;
     }
-    .button-links-1, .button-links-2, .button-links-3 {
+    .courses h1 {
+        font-size: 1.2em;
+    }
+    .courses p {
+        font-size: 0.9em;
+    }
+    .courses ul li a {
+        font-size: 0.8em;
+        margin-right: 10px;
+    }
+    .python-expand h2 {
+        font-size: 1.2em;
+    }
+    .python-expand p {
+        font-size: 0.8em;
         display: flex;
-        justify-content: center;
         flex-wrap: wrap;
     }
-    .button-links-2 button{
-     padding: 5px 5px;
-     font-size: 0.7em;
- }
-    .button-links-3 button{
-     padding: 5px 5px;
-     font-size: 0.7em;
- }
- .image-section img {
-    width: 300px;
+    .py-container {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .students-header h2 {
+        font-size: 1.3em;
+        text-align: center;
+    }
+    .students-container {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .categories-header h2 {
+        font-size: 1.3em;
+        text-align: center;
+    }
+    .design-containers {
+        flex-direction: column;
+        text-align: center;
+    }
+    .design-containers2 {
+        flex-direction: column;
+        text-align: center;
+    }
+    .ft-header1 h1 {
+        font-size: 1.15em;
+        text-align: center;
+    }
+    .ft-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .instructor1-bio {
+        flex-direction: column;
+        text-align: center;
+    }
+    .trustee-header h2 {
+        font-size: 1.2em;
+    }
+    .transform {
+        flex-direction: column;
+        text-align: center;
+    }
 }
-.image-section-1 img {
-    width: 300px;
-    text-align: center;
-}
-.image-section, .image-section-1 {
-    display: grid;
-    justify-content: center;
-}
+@media all and (max-width: 1050px) {
+    .nav2, .chart-font, .login-btn, .signup-btn, .web-btn {
+        display: none;
+    }
     .search-bar input {
-     width: 60%;
- }
+        width: 200%;
+    }
+    .python-expand h2 {
+        font-size: 1.2em;
+    }
+    .python-expand p {
+        font-size: 0.8em;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .courses h1 {
+        font-size: 1.2em;
+    }
+    .courses p {
+        font-size: 0.9em;
+    }
+    .courses ul li a {
+        font-size: 0.8em;
+        margin-right: 10px;
+    }
+    .bg-container {
+        display: none;
+    }
+    .py-container {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .students-container {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .design-containers {
+        flex-wrap: wrap;
+    }
+    .design-containers2 {
+        flex-wrap: wrap;
+    }
+    .ft-container {
+        grid-template-columns: auto;
+        text-align: center;
+    }
+    .ft-header1 h1 {
+        font-size: 1.15em;
+        text-align: center;
+    }
 }
 @media all and (max-width: 1250px) {
-    .container{
-        display: grid;
-        grid-template-columns: 2fr;
+    .nav2, .chart-font, .login-btn, .signup-btn, .web-btn {
+        display: none;
     }
-    .logo img {
-        width: 200px;
-        height: 50px;
-    }
-    .side-container-1 {
-        display: grid;
-        justify-content: center;
-        margin: 0;
-       }
-       .side-container-2 {
-        display: grid;
-        justify-content: center;
-        margin: 0;
-       }
-       .button-links-1, .button-links-2, .button-links-3 {
-        display: grid;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin-left: 0;
-       }
-       .button-links-1 button{
-        padding: 5px 5px;
-        font-size: 0.7em;
-    }
-    .button-links-1, .button-links-2, .button-links-3 {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    .button-links-2 button{
-     padding: 5px 5px;
-     font-size: 0.7em;
- }
-    .button-links-3 button{
-     padding: 5px 5px;
-     font-size: 0.7em;
- }
- .image-section img {
-    width: 400px;
-}
-.image-section-1 img {
-    width: 400px;
-    text-align: center;
-}
-.image-section, .image-section-1 {
-    display: grid;
-    justify-content: center;
-}
     .search-bar input {
-     width: 50%;
- }
- .side-container-1, .side-container-2 {
-     display: flex;
-     justify-content: center;
-     gap: 15px;
-     flex-wrap: wrap;
- }
+        width: 200%;
+    }
+    .py-container {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .students-container {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .design-containers {
+        flex-wrap: wrap;
+    }
+    .design-containers2 {
+        flex-wrap: wrap;
+    }
+}
+@media all and (max-width: 1350px) {
+    .nav2 {
+        display: none;
+    }
 }
